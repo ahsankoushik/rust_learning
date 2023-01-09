@@ -31,6 +31,11 @@ fn main(){
     let flag2 = false;
     println!("{flag},{flag2}");
 
+    // char 
+    let chr : char = 'a';   // single qoute
+    let smile = '😀';       // works with emotes 
+    println!("{},{}",chr,smile);
+
     // tuple
     let tup = (5,4.3,67,-2);
     let tup1 : (u8,f32,u8,i8) = (5,4.3,67,-2);
@@ -44,7 +49,12 @@ fn main(){
     // println!("{tup}");
 
     // array
-
+    let arr = [1,2,3];
+    let mons = ["jan","feb","mar"];
+    let ab :[i32;5] = [1,2,3,4,5];          //[type;length]
+    let a = [3;2];                      // [3,3]  // [data:times]
+    // accessing value in array
+    println!("{}",mons[1]);
 
 
     // 

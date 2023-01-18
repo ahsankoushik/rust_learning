@@ -5,6 +5,7 @@ fn main(){
     println!("another type of return {} ",func());
     let y = func_args(5,6);
     println!("is 5 is less than 6 {}",y);
+    
 }
 
 // return type decleation is mendatory if functions returns something
@@ -32,3 +33,4 @@ fn func()-> bool{
 fn func_args(x:u32, y:u32)-> bool {
     x<y
 }
+
